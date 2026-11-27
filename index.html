@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Savanna Bites Restaurant</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                🍽️ Savanna <span>Bites</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <a href="#reservation" class="nav-button">
+                Book a Table
+            </a>
+
+        </nav>
+    </header>
+
+
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO SAVANNA BITES</p>
+
+            <h1>
+                Delicious Food.
+                <br>
+                <span>Beautiful Moments.</span>
+            </h1>
+
+            <p>
+                Experience delicious meals made with fresh ingredients,
+                warm hospitality and a taste you'll never forget.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#menu" class="primary-button">
+                    Explore Our Menu
+                </a>
+
+                <a href="#reservation" class="secondary-button">
+                    Reserve a Table
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    
+    <section id="about" class="about">
+
+        <div class="about-image">
+            <img
+                src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80"
+                alt="Restaurant food">
+        </div>
+
+        <div class="about-content">
+
+            <p class="section-label">ABOUT US</p>
+
+            <h2>
+                A Taste You'll
+                <span>Always Remember</span>
+            </h2>
+
+            <p>
+                At Savanna Bites, we believe food is more than just a meal.
+                It is an experience that brings people together.
+            </p>
+
+            <p>
+                Our chefs prepare every dish using fresh ingredients,
+                carefully selected spices and a lot of passion.
+            </p>
+
+            <div class="features">
+
+                <div>
+                    <strong>10+</strong>
+                    <p>Years Experience</p>
+                </div>
+
+                <div>
+                    <strong>50+</strong>
+                    <p>Delicious Dishes</p>
+                </div>
+
+                <div>
+                    <strong>5k+</strong>
+                    <p>Happy Customers</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="menu" class="menu-section">
+
+        <div class="section-heading">
+
+            <p class="section-label">OUR MENU</p>
+
+            <h2>
+                Explore Our
+                <span>Delicious Menu</span>
+            </h2>
+
+            <p>
+                Freshly prepared meals made just for you.
+            </p>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+            <!-- FOOD 1 -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=700&q=80"
+                    alt="Grilled chicken">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Grilled Chicken</h3>
+                        <span>KSh 850</span>
+                    </div>
+
+                    <p>
+                        Tender grilled chicken served with vegetables
+                        and our special sauce.
+                    </p>
+
+                    <button onclick="orderFood('Grilled Chicken')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+    
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=700&q=80"
+                    alt="Pizza">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Cheesy Pizza</h3>
+                        <span>KSh 950</span>
+                    </div>
+
+                    <p>
+                        Freshly baked pizza topped with cheese,
+                        vegetables and your choice of toppings.
+                    </p>
+
+                    <button onclick="orderFood('Cheesy Pizza')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+        
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&w=700&q=80"
+                    alt="Healthy salad">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Fresh Garden Salad</h3>
+                        <span>KSh 550</span>
+                    </div>
+
+                    <p>
+                        A fresh and colorful combination of vegetables
+                        with our special dressing.
+                    </p>
+
+                    <button onclick="orderFood('Fresh Garden Salad')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOD 4 -->
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1565299507177-b0ac66763828?auto=format&fit=crop&w=700&q=80"
+                    alt="Burger">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Classic Burger</h3>
+                        <span>KSh 650</span>
+                    </div>
+
+                    <p>
+                        Juicy beef burger with fresh vegetables,
+                        cheese and crispy fries.
+                    </p>
+
+                    <button onclick="orderFood('Classic Burger')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?auto=format&fit=crop&w=700&q=80"
+                    alt="Pasta">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Creamy Pasta</h3>
+                        <span>KSh 750</span>
+                    </div>
+
+                    <p>
+                        Creamy pasta prepared with fresh herbs
+                        and our signature sauce.
+                    </p>
+
+                    <button onclick="orderFood('Creamy Pasta')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="food-card">
+
+                <img
+                    src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=700&q=80"
+                    alt="Dessert">
+
+                <div class="food-info">
+
+                    <div class="food-title">
+                        <h3>Sweet Dessert</h3>
+                        <span>KSh 450</span>
+                    </div>
+
+                    <p>
+                        Finish your meal with our delicious
+                        homemade dessert.
+                    </p>
+
+                    <button onclick="orderFood('Sweet Dessert')">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="services" class="services">
+
+        <div class="section-heading">
+
+            <p class="section-label">WHAT WE OFFER</p>
+
+            <h2>
+                Our <span>Services</span>
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card">
+                <div class="service-icon">🍽️</div>
+                <h3>Dine In</h3>
+                <p>
+                    Enjoy a comfortable dining experience
+                    with family and friends.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🛵</div>
+                <h3>Food Delivery</h3>
+                <p>
+                    Enjoy your favorite meals from the comfort
+                    of your home.
+                </p>
+            </div>
+
+
+            <div class="service-card">
+                <div class="service-icon">🎉</div>
+                <h3>Events & Catering</h3>
+                <p>
+                    We provide catering services for birthdays,
+                    meetings and special events.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="reservation" class="reservation">
+
+        <div class="reservation-content">
+
+            <p class="section-label">RESERVATION</p>
+
+            <h2>
+                Reserve Your
+                <span>Table Today</span>
+            </h2>
+
+            <p>
+                Planning a special dinner? Reserve your table
+                and let us take care of the rest.
+            </p>
+
+
+            <form onsubmit="bookTable(event)">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your Name"
+                    required>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    placeholder="Phone Number"
+                    required>
+
+                <input
+                    type="date"
+                    id="date"
+                    required>
+
+                <select id="guests" required>
+
+                    <option value="">
+                        Number of Guests
+                    </option>
+
+                    <option>1 Guest</option>
+                    <option>2 Guests</option>
+                    <option>3 Guests</option>
+                    <option>4 Guests</option>
+                    <option>5 Guests</option>
+                    <option>6+ Guests</option>
+
+                </select>
+
+                <button type="submit">
+                    Reserve Table
+                </button>
+
+            </form>
+
+        </div>
+
+    </section>
+
+    <section id="contact" class="contact">
+
+        <div>
+            <p class="section-label">GET IN TOUCH</p>
+
+            <h2>
+                Visit <span>Us Today</span>
+            </h2>
+
+            <p>📍 Nakuru, Kenya</p>
+            <p>📞 +254 700 000 000</p>
+            <p>✉️ info@savannabites.com</p>
+        </div>
+
+    </section>
+
+
+    
+    <footer>
+
+        <div class="footer-logo">
+            🍽️ Savanna Bites
+        </div>
+
+        <p>
+            © 2026 Savanna Bites Restaurant. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
